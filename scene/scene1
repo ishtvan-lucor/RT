@@ -1,0 +1,50 @@
+CONE:
+	color: 255 255 0
+	center: 7 0 -10
+	angle: 15
+	rotation: -45 0 0
+	slice: own origin: 0 4 0 axis: 0 1 0
+	slice: own origin: 0 0 0 axis: 0 1 0
+#
+BOCAL:
+	center: -20 0 0
+	rotation: 30 0 0
+#
+PLANE:
+	color: 82 82 82
+	center: 0 -15 0
+#
+PLANE:
+	center: 0 0 6
+	rotation: 90 0 0
+	color: 50 50 200
+#
+SPHERE:
+	color: 180 20 20
+	center: 0 0 0
+	radius: 4
+	specular: 123
+#
+CYLINDER:
+	color: 65 230 75
+	center: -5 0 0
+	radius: 1
+	rotation: -45 0 0
+#
+CAMERA:
+	position: 0 0 -30
+	angle_x: 0
+#
+POINT:
+	position: 0 3 -15
+	intensivity: 0.7
+#
+AMBIENT:
+	intensivity: 0.2
+#
+SPHERE:
+	color: 180 20 20
+	center: 10 10 10
+	radius: 4
+	specular: 123
+#
