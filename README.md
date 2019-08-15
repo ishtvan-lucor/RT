@@ -22,7 +22,7 @@ Directory /scene supported some test maps.
 
 #### Usage:
 + make
-+ ./RTv1 scenes/configurate_file
++ ./RT scene/configurate_file
 
 #### Exemple:
 
