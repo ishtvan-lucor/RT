@@ -1,4 +1,4 @@
-Version: 0.5 (alfa-test) 31.03.2019
+Version: 0.5 (beta-test) 31.03.2019
 
 Add camera, object, light after '#'.
 
@@ -10,7 +10,6 @@ Than in new line after one tabulation put name of parameter, ":" and data divide
 !!If you miss some object/parameter or make mistake in syntax, program will fill it by default values!!
 !!Undefined behaviour: put light spot on object surface!!
 !!Undefined behaviour: put view of camera on object surface!!
-!!Undefined behaviour: !!
 
 Objects and parameters:
 1. CAMERA: position, angle_x, angle_y
