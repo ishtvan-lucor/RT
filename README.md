@@ -6,25 +6,25 @@ Developed in collaboration with:
 | --------- | --------- | 
 | [Arsen Abdullaiev](https://github.com/aisenn) |[Maksym Hedeon](https://github.com/mhedeon)|
 
-This project about ray tracing rendering technique. Develeped render tool witch be able to draw elementary geometric figures, like sphere, cone, cylinder, plane + additional composed object - bocal. It display figure/figures depending of light source/sources and viewpoint.
+The goal of this project is to implement a ray tracing algorithm. This render tool supports drawing elementary geometric shapes like sphere, cone, cylinder, plane and additional composed object - a wine glass. It displays shapes with given light sources depending on the viewpoint.
 
-Extra functianal:
-- add ability to slice objects;
-- rotation of point of viev in real time;
-- reflection property;
-- interface, screenshots option, sepia effect etc.
+Additional functionality:
+- ability to slice objects;
+- point of view rotation and translation along XYZ axis in real time;
+- reflection material property;
+- GUI, screenshots option, sepia effect, etc.
 
-Makefile suported the next command: make all, clean, fclean, re.
-Directory /scene supported some test maps.
+Makefile supports such targets: make all, clean, fclean, re.
+In [scene](/scene) directory you can find test maps.
 
-### Open MAN
+### Manual file
 + cat MAN
 
-#### Usage:
+### Usage
 + make
-+ ./RT scene/configurate_file
++ ./RT scene/configuration_file
 
-#### Exemple:
+### Examples
 
 ![Scene0](https://github.com/mhedeon/RT/blob/master/screenshots/screenshot0.png?raw=true "Basic scene")
 ![Scene1](https://github.com/mhedeon/RT/blob/master/screenshots/screenshot1.png?raw=true "Basic scene in sepia")
